@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.size{
+    width: 100px;
+}
+.pe{
+    width: 100px;
+    
+
+}
+
+header{ padding: 10px 0;
+    
+}
+.home-area{
+    height: 150;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 99;
+    background-color: #fafafa ;
+}
+header>ul>li{display: inline-block;
+    
+}
+
+
+ul li a {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10%;
+}
+
+#im1{width: 20%; vertical-align: middle;}
+#im1 img{ height: 80px;}
+#im2{
+    width: 100%;
+    height: 78vh;
+    background-image: url(imagem\ tempero.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+#on-image{
+    font-size: 40px;
+    color: white;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:50%;    
+    left: 50%; 
+    
+}
+.title{
+    font-family: "Playfair Display", serif;
+     font-size: 50px;
+     letter-spacing: 5px;
+}
+
+.menu-title {
+    font-family: "Playfair Display", serif;
+    text-decoration:underline rgba(0, 0, 0, 0.2); 
+    font-weight: 100;
+    font-size: 21px;
+    font-style: italic;
+}
+
+#sz{ font-size: 70px;}
+
+.p{ font-size:25px;}
+
+#T1 h1{
+    font-size: 70px;
+}
+
+
+#dc { text-align: center;
+      
+}
+
+
+#T1
+{
+    text-align: left;
+    display: inline-block;
+    height:auto;
+    vertical-align: top;
+    padding-top: 250px;
+    margin-right: 50px;
+}
+
+
+
+    
+
+#T2{ text-align: center;
+    
+    display: inline-block;
+    width: 33%;
+    padding-top: 100px;
+    background-color:  #faf0ec;
+
+}
+.font{ 
+    font-family: "Roboto", sans-serif;
+    padding-top: 30px;
+    line-height: 2;
+
+}
+
+#Dg{
+    position: relative;
+    height: 1700px;
+    overflow: hidden;
+    
+}
+.over{
+    overflow: hidden;
+}
+
+#im3{
+ top: -5%;
+ height: 780px;
+ width: 550px;
+ position: absolute;
+ left: 20%;
+ overflow: hidden;
+}
+
+#im3:hover{
+    transform: scale(1.2);
+    filter: brightness(50%);
+    z-index: 3;
+}
+
+#im4{
+    background-image: url(g2.png);
+    height: 550px;
+    width: 450px;
+    position: absolute;
+    right: 26%;
+    top: 400px;
+}
+#im4:hover{
+    transform: scale(1.2);
+    filter: brightness(50%);
+    z-index: 3;
+}
+#im5{ background-image: url(g3.png);
+      position: absolute;
+      height: 550px;
+      width: 450px;
+      top: 815px;
+      left: 25%;
+}
+#im5:hover{
+    transform: scale(1.2);
+    filter: brightness(50%);
+    z-index: 3;
+}
+#im6{
+    background-image: url(g4.png);
+    position: absolute;
+    height: 580px;
+    width: 540px;
+    right: 21.3%;
+    top: 1000px;
+
+}
+#im6:hover{
+    transform: scale(1.2);
+    filter: brightness(50%);
+    z-index: 3;
+}
+#botao{
+    margin-top: 40px;
+    width: 197.63px;
+    height: 50px;
+    background-color: #ad9966;
+    color: white;
+    border-color: #ad9966;
+    border-style: solid;
+}
+
+#botao:hover{
+
+
+    background-color: aliceblue;
+    color: #ad9966;
+}
+#t3{display: inline-block;
+    background-color: #faf0ec;
+    width: 600px;
+    height: 800px;
+    padding: 120px 50px 240px 50px;
+    top: 0%;
+    
+
+
+
+}
+
+#contatoForm  input, #contatoForm  select{
+    border: none;
+    height: 38px;
+    margin-bottom: 20px;
+    padding: 12px;
+
+}
+
+.inputMaior {
+    width: 90%;
+}
+
+.inputSep {
+    width: 8%;
+}
+
+
+.inputMenor {
+
+    width: 45%;
+}
+
+
+
+#t4{
+    display: inline-block;
+    text-align: left;
+    padding-left: 100px;
+}
+#dg2{
+   
+    text-align: center;
+    
+}
+#botão{
+    
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    border-color: #000000;
+    border-style: solid;
+    padding: 0;
+}
+#botão:hover{
+    background-color:white;
+    border-color: #ad9966;
+    color: #ad9966;
+}
+#be{left: 0%;
+top: 40%;
+background-image: url(setabranca.png);
+width: 90px;
+height: 189px;
+position: fixed;
+vertical-align: middle;
+}
+
+#se{
+    position: fixed;
+    left: 0%;
+    top: 47.5%;
+    font-size: 12px;
+}
+
+#se:hover{
+    transform: rotate(-90deg);
+    transition: 0.4s;
+    color: #ad9966;
+}
+
+    #bd{right: 0%;
+    top: 40%;
+    background-image: url(setadorada.png);
+    width: 90px;
+    height: 189px;
+    position: fixed;
+    vertical-align: middle;
+    }
+    
+    #sd{
+        position: fixed;
+        right: 0%;
+        top: 47.5%;
+        font-size: 12px;
+    }
+    
+    #sd:hover{
+        transform: rotate(-90deg);
+        transition: 0.4s;
+        color:black;
+    }
+
+    #t5{
+        text-align: left;
+        display: inline-block;
+       margin: 50 50 50 50;
+       position: absolute;
+       left: 20%;
+       top: 20%;
+
+    }
+    #t5 img{
+        margin-top: 50px;
+    }
+    
+    #divc2{
+        text-align: center;
+        height: 600px;
+        position: relative;
+    }
+    #t6{
+        display: inline-block;
+        position: absolute;
+        width: 540px;
+        height: 778px;
+        top: -20%;
+    }
+    header{position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;}
+
+    #imgf{ 
+        background-image: url(setaleft.png);
+        background-image: url(setaright.png)
+       width: 100%;
+    height: 600px;
+    background-image: url('carnecombatata.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 200px 0;
+
+    }
+    
+    
+
+    #MC{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 513px;
+    height: 163px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 20px;
+    }
+    #MC-fontet{
+        font-family: "Playfair Display", serif;
+    }
+    #MC-fontetxt{
+        font-family: "Roboto", sans-serif;;
+    }
+    #divc3{
+        text-align: center;
+        
+        
+
+    }
+    #t7{background-color: rgba(167, 159, 159, 0.548);
+        display: inline-block;
+        width: 550;
+        height: 600px;
+        margin-right: 100px;
+        
+    }
+    #t8{display: inline-block;
+    text-align: left;
+    }
+
+    #r1{display: inline-block;
+        width: 160px;
+        height: 185px;
+    }
+    #r2{display: inline-block;
+        width: 160px;
+        height: 185px;
+    }
+
+    #r3{display: inline-block;
+        width: 160px;
+        height: 185px;
+    }
+
+    #r4{display: inline-block;
+        width: 160px;
+        height: 185px;
+    }
+
+    #r5{display: inline-block;
+        width: 160px;
+        height: 185px;
+    }
+    #divc4{
+        background-color: rgb(1, 1, 44);
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .titlerp{
+        font-family: "Playfair Display", serif;
+        color: white;
+        font-size: 25px;
+        margin-bottom: 15px;
+
+    }
+    .fontrp{
+        font-family: "Roboto", sans-serif;
+        color: rgb(194, 193, 193);
+        line-height: 2;
+        
+
+
+    }
+   
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fafafa;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.menu-principal {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principal > li {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.menu-principal > li > a {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.menu-principal > li > a:hover {
+    color: #ad9966;
+}
+
+
+.logo-item {
+    margin: 0 30px;
+}
+
+.logo-item img {
+    height: 80px;
+    vertical-align: middle;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-conteudo {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 100;
+}
+
+.dropdown-conteudo li {
+    display: block;
+}
+
+.dropdown-conteudo li a {
+    display: block;
+    padding: 12px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.dropdown-conteudo li a:hover {
+    background-color: #ad9966;
+    color: white;
+}
+
+/* Mostrar dropdown ao passar o mouse */
+.dropdown:hover .dropdown-conteudo {
+    display: block;
+}
